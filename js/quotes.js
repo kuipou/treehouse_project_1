@@ -12,12 +12,12 @@ var quotes = [
   quote: "You want weapons? We're in a library. Books are the best weapon in the world. This room's the greatest arsenal we could have. ",
   author: "The Tenth Doctor",
   citation: "Doctor Who" ,
-  year: 2010
+  year: 2010,
+  bgc: "rgb(0,59,111)"
 },
 {
   quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-  author: "Albert Einstein",
-  citation: "",
+  author: "Albert Einstein"
                                                                                             
 },
 {
@@ -28,7 +28,7 @@ var quotes = [
 },
 {
   quote: "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light",
-  author: "J.K. Rowling",
+  author: "J.K. Rowling 1",
   citation:"Harry Potter " ,
   year: 2001
 },
@@ -54,13 +54,13 @@ var quotes = [
 },
 {
   quote: "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?" ,
-  author: "J.K. Rowling",
+  author: "Dumbledore, J.K. Rowling",
   citation: "Harry Potter and the Deathly Hallows",
   year: 2007
 },
 {
   quote: "It is the unknown we fear when we look upon death and darkness, nothing more.",
-  author: "J.K. Rowling",
+  author: "J.K. Rowling 2",
   citation: "Harry Potter and the the Half-Blood Prince" ,
   year: 2006
 }//,
