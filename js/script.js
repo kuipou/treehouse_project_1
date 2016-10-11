@@ -18,7 +18,7 @@ function getRandomRGB() {
 // selects a random quote object from the quotes array
 // returns the randomly selected quote object
 function getRandomQuote() {
- return query = quotes[Math.floor(Math.random() * quotes.length)];
+ return quotes[Math.floor(Math.random() * quotes.length)];
 
 }
 
@@ -30,10 +30,10 @@ function printQuote() {
   var html =  '<p class="quote">' + query.quote + '</p> <p class="source">' + query.author;
 
   // we check if both citation and year separatly aren't empty if they aren't display span
-  if (typeof query.citation !== "undefined" ){
+  if (query.citation ){
       html += '<span class="citation">' + query.citation + '</span>';
   }
-  if (typeof query.year !== "undefined" ) {
+  if (query.year) {
       html += '<span class="year">' + query.year + '</span>';
   }
   // close the string
